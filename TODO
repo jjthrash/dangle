@@ -14,15 +14,25 @@ as it's edited.
 This can also be accomplished by pasting equivalent plain text from the
 clipboard.
 
-Notes:
-- by default the entry being edited is in edit mode (has focus, carat is
-blinking, etc)
-- clicking escape leaves edit mode, enters command mode
-
 Tag Items
 ---------
 Mark entries for organization.
 
+With a node selected user types 'ctrl-t' and a text box is displayed next
+to the item, into which the user can enter a tag.
 
+Filter View
+-----------
+Limit view to tagged items.
+
+The user types 'ctrl-f', and a text box is displayed at the bottom of the
+screen, as the user types, if a tag is matched, then the display is
+(quickly) limited to items tagged with the matching tags. If a tag isn't
+matched, the view is filtered by all the matching tags.
+
+Edit While Filtered
+-------------------
+While a view is filtered, all items added are automatically tagged with the
+current tags so as to keep them in view.
 
 # vim:tw=75
