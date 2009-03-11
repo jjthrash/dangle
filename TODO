@@ -1,0 +1,28 @@
+User stories
+============
+
+Data Dump
+---------
+Enter data quickly.
+
+User starts program and starts typing.  <CR> adds new child to current
+parent, <TAB> reparents current node to current peer, <S-TAB> reparents
+current node to current grandparent, next to current parent.  User should
+be able to type as easily as when typing into a text editor. Data is saved
+as it's edited.
+
+This can also be accomplished by pasting equivalent plain text from the
+clipboard.
+
+Notes:
+- by default the entry being edited is in edit mode (has focus, carat is
+blinking, etc)
+- clicking escape leaves edit mode, enters command mode
+
+Tag Items
+---------
+Mark entries for organization.
+
+
+
+# vim:tw=75
