@@ -18,14 +18,14 @@ Tag Items
 ---------
 Mark entries for organization.
 
-With a node selected user types 'ctrl-t' and a text box is displayed next
+With a node selected user types <C-T> and a text box is displayed next
 to the item, into which the user can enter a tag.
 
 Filter View
 -----------
 Limit view to tagged items.
 
-The user types 'ctrl-f', and a text box is displayed at the bottom of the
+The user types <C-F>, and a text box is displayed at the bottom of the
 screen, as the user types, if a tag is matched, then the display is
 (quickly) limited to items tagged with the matching tags. If a tag isn't
 matched, the view is filtered by all the matching tags.
